@@ -2,8 +2,11 @@
   "name": "classnames-joiner",
   "version": "1.0.0",
   "description": "A fast, even simpler utility for conditionally joining class names together in Javascript and Typescript",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
   },
   "repository": {
     "type": "git",
