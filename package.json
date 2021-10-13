@@ -1,19 +1,39 @@
 {
   "name": "classnames-joiner",
   "version": "1.0.0",
-  "description": "A fast, even simpler utility for conditionally joining class names together in Javascript and Typescript.",
-  "main": "index.js",
+  "description": "A fast, even simpler utility for conditionally joining class names together in Javascript and Typescript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uuykay/classnames-joiner.git"
   },
-  "author": "",
+  "keywords": [
+    "css-in-js",
+    "typescript",
+    "react",
+    "javascript",
+    "css",
+    "classes",
+    "classname",
+    "classnames",
+    "joiner",
+    "util",
+    "utility",
+    "css-modules"
+  ],
+  "author": "William Kuang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/uuykay/classnames-joiner/issues"
   },
-  "homepage": "https://github.com/uuykay/classnames-joiner#readme"
+  "homepage": "https://github.com/uuykay/classnames-joiner#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.5",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.4"
+  }
 }
