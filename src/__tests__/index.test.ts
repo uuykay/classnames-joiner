@@ -11,4 +11,11 @@ describe("classnames",()=>{
 	
 		expect(result).toEqual("someClass someOtherClass");
 	})
+
+	it("should return empty string if passed in an array of nulls and undefines",()=>{
+		expect(classnames([null,null, undefined, undefined])).toEqual("");
+	})
+	it("should return empty string if passed in an empty array",()=>{
+		expect(classnames([])).toEqual("");
+	})
 })
