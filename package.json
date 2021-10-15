@@ -1,6 +1,6 @@
 {
   "name": "classnames-joiner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast, even simpler utility for conditionally joining class names together in Javascript and Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
